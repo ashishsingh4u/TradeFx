@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Sample", "Sample", "{D0BF3D03-0693-4367-837A-72778501E7C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechieSocket", "TechieSocket\TechieSocket.csproj", "{8B7BC8E7-777A-478F-9CA6-E9CDC70CA43B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechieSocket.Sample.EchoServer", "TechieSocket.Sample.EchoServer\TechieSocket.Sample.EchoServer.csproj", "{6C7E4A29-086D-40C7-B8FB-95EF3946E865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TechieSocket.Sample.EchoClient", "TechieSocket.Sample.EchoClient\TechieSocket.Sample.EchoClient.csproj", "{77464E33-4F42-45FB-AD8F-5D252572BF39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Emcaster", "Emcaster\Emcaster.csproj", "{6FBD14B8-C57D-49FD-8283-A162F40ABE37}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 5
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://ashishsingh4u.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = TechieSocket.Sample.EchoClient\\TechieSocket.Sample.EchoClient.csproj
+		SccProjectTopLevelParentUniqueName1 = TechieSocket.sln
+		SccProjectName1 = TechieSocket.Sample.EchoClient
+		SccLocalPath1 = TechieSocket.Sample.EchoClient
+		SccProjectUniqueName2 = TechieSocket.Sample.EchoServer\\TechieSocket.Sample.EchoServer.csproj
+		SccProjectTopLevelParentUniqueName2 = TechieSocket.sln
+		SccProjectName2 = TechieSocket.Sample.EchoServer
+		SccLocalPath2 = TechieSocket.Sample.EchoServer
+		SccProjectUniqueName3 = TechieSocket\\TechieSocket.csproj
+		SccProjectName3 = TechieSocket
+		SccLocalPath3 = TechieSocket
+		SccProjectUniqueName4 = Emcaster\\Emcaster.csproj
+		SccProjectName4 = Emcaster
+		SccLocalPath4 = Emcaster
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B7BC8E7-777A-478F-9CA6-E9CDC70CA43B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7BC8E7-777A-478F-9CA6-E9CDC70CA43B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7BC8E7-777A-478F-9CA6-E9CDC70CA43B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7BC8E7-777A-478F-9CA6-E9CDC70CA43B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C7E4A29-086D-40C7-B8FB-95EF3946E865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C7E4A29-086D-40C7-B8FB-95EF3946E865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C7E4A29-086D-40C7-B8FB-95EF3946E865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C7E4A29-086D-40C7-B8FB-95EF3946E865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77464E33-4F42-45FB-AD8F-5D252572BF39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77464E33-4F42-45FB-AD8F-5D252572BF39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77464E33-4F42-45FB-AD8F-5D252572BF39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77464E33-4F42-45FB-AD8F-5D252572BF39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBD14B8-C57D-49FD-8283-A162F40ABE37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBD14B8-C57D-49FD-8283-A162F40ABE37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBD14B8-C57D-49FD-8283-A162F40ABE37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBD14B8-C57D-49FD-8283-A162F40ABE37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6C7E4A29-086D-40C7-B8FB-95EF3946E865} = {D0BF3D03-0693-4367-837A-72778501E7C2}
+		{77464E33-4F42-45FB-AD8F-5D252572BF39} = {D0BF3D03-0693-4367-837A-72778501E7C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = 
+	EndGlobalSection
+EndGlobal

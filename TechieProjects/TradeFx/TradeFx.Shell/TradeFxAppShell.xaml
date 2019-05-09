@@ -1,0 +1,38 @@
+﻿<Window x:Class="TradeFx.Shell.TradeFxAppShell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:regions="http://www.codeplex.com/CompositeWPF"
+        Title="TradeFx" Height="350" Width="525"
+        Icon="Images/Foreign_Currency_Exchange_32.png">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+        <Grid>
+            <Ribbon Grid.Row="0" regions:RegionManager.RegionName="RibbonRegion">
+                <Ribbon.ApplicationMenu>
+                    <RibbonApplicationMenu>
+                        <RibbonApplicationMenuItem Header="Preferences" ImageSource="Images/Black_wrench_32.png"/>
+                        <RibbonApplicationMenu.FooterPaneContent>
+                            <Grid>
+                                <RibbonButton SmallImageSource="Images/Open_exit_door_32.png" Label="Exit" HorizontalAlignment="Right"/>
+                            </Grid>
+                        </RibbonApplicationMenu.FooterPaneContent>
+                    </RibbonApplicationMenu>
+                </Ribbon.ApplicationMenu>
+                <RibbonTab Header="Cash">
+                    <RibbonGroup Header="Tickets">
+                        <RibbonButton LargeImageSource="Images/Dollar_bills_32.png" ToolTipDescription="Cash Tickets"/>
+                    </RibbonGroup>
+                    <RibbonGroup Header="Blotters">
+                        <RibbonButton LargeImageSource="Images/Table_grid_32.png" ToolTipDescription="Cash Blotter"/>
+                    </RibbonGroup>
+                </RibbonTab>
+            </Ribbon>
+        </Grid>
+        <ContentControl Grid.Row="1" regions:RegionManager.RegionName="CashTicketRegion"/>
+        <ContentControl Grid.Row="2" regions:RegionManager.RegionName="CashBlotterRegion"/>
+    </Grid>
+</Window>
